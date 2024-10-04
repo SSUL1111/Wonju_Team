@@ -1226,13 +1226,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\uCC28\uC774\uB97C 3\uAC00\uC9C0 \uCC3E\uC73C\uC2DC\uC624"
 --- !u!222 &1060613662
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1474,6 +1474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalDifferences: 3
   resultText: {fileID: 1060613661}
+  stamp: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
