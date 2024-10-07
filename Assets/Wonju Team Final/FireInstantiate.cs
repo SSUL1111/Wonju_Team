@@ -19,10 +19,10 @@ public class FireInstantiate : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime; // 경과 시간 증가
-        if (timer >= 0.5f&&isInstantiate==false) // 0.5초가 지나면
+        if (timer >= 1.0f&&isInstantiate==false) // 1초가 지나면
         {
             Instantiate(leftInstantiatePrefab, transform.position + new Vector3(-7, -0.5f, 0), Quaternion.identity); // 오브젝트 생성
-            Instantiate(rightInstantiatePrefab, transform.position + new Vector3(7, -0.5f, 0), Quaternion.identity); // 오브젝트 생성
+            Instantiate(rightInstantiatePrefab, transform.position + new Vector3(8, -0.5f, 0), Quaternion.identity); // 오브젝트 생성
             timer = 0f; // 타이머 초기화 (필요에 따라)
             isInstantiate = true;
         }

@@ -18,6 +18,6 @@ public class Button_Ticket : MonoBehaviour
     }
     public void TicketButton()
     {
-        SceneManager.LoadScene("F");
+        SceneManager.LoadScene("E");
     }
 }

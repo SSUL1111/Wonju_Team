@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Button_B_Back : MonoBehaviour
 {
+    public AudioSource myAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,13 @@ public class Button_B_Back : MonoBehaviour
     }
     public void BackButton()
     {
-        SceneManager.LoadScene("E");
+        StartCoroutine(LoadSceneAfterDelay());
+    }
+
+    private IEnumerator LoadSceneAfterDelay()
+    {
+        myAudio.Play(); // 소리 재생
+        yield return new WaitForSeconds(1.0f); // 1초 대기
+        SceneManager.LoadScene("D"); // 씬 로드
     }
 }

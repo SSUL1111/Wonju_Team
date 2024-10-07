@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Button_B_Go : MonoBehaviour
 {
-    //public Button transitionButton; // 씬 전환 버튼
-    // Start is called before the first frame update
+    public AudioSource myAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +17,17 @@ public class Button_B_Go : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void GoButton()
     {
-        SceneManager.LoadScene("C");
+        StartCoroutine(LoadSceneAfterDelay());
+    }
+
+    private IEnumerator LoadSceneAfterDelay()
+    {
+        myAudio.Play(); // 소리 재생
+        yield return new WaitForSeconds(1.0f); // 1초 대기
+        SceneManager.LoadScene("C"); // 씬 로드
     }
 }
