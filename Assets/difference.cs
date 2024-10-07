@@ -4,31 +4,25 @@ using UnityEngine;
 
 public class difference : MonoBehaviour
 {
-    private bool isFound = false; // 차이를 찾았는지 여부
-    public GameObject redCirclePrefab; // 빨간 원 프리팹을 할당할 변수
+    private bool isFound = false;
+    public GameObject redCirclePrefab;
     AudioSource aud;
-    private void Start()
+    void Start()
     {
+        // 오브젝트에 부착된 AudioSource 컴포넌트 가져오기
         aud = GetComponent<AudioSource>();
     }
-
     void OnMouseDown()
     {
         if (!isFound)
         {
-            // 차이를 찾았을 때 처리
+            // 클릭하면 차이를 찾은 것으로 처리
             isFound = true;
-
-            // 게임 매니저에게 알림
-            FindObjectOfType<gamemanager>().FoundDifference();
-
-            // 클릭한 위치에 빨간 원을 생성
+            FindObjectOfType<Gamemanager>().FoundDifference(); // 게임 매니저에게 알림
             ShowRedCircle();
             aud.Play();
         }
     }
-
-    // 빨간 원을 클릭한 위치에 생성하는 함수
     void ShowRedCircle()
     {
         if (redCirclePrefab != null)
