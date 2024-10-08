@@ -25,7 +25,7 @@ public class Button_B_Back : MonoBehaviour
     private IEnumerator LoadSceneAfterDelay()
     {
         myAudio.Play(); // 소리 재생
-        yield return new WaitForSeconds(1.0f); // 1초 대기
+        yield return new WaitForSeconds(2.0f); // 2초 대기
         SceneManager.LoadScene("D"); // 씬 로드
     }
 }
