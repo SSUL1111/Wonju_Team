@@ -28,7 +28,7 @@ public class Celebration : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime; // 경과 시간 증가
-        if (timer >= 1.0f && isInstantiate == false) // 1초가 지나면
+        if (timer >= 3.0f && isInstantiate == false) // 3초가 지나면
         {
             Instantiate(CelebrationInstantiatePrefab, transform.position + new Vector3(4.0f, 2.0f, 0), Quaternion.Euler(0,0,-45.0f)); // 오브젝트 생성
             timer = 0f; // 타이머 초기화 (필요에 따라)

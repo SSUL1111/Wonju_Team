@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7747179092936438055}
   - component: {fileID: 7498839825160497120}
+  - component: {fileID: 7331488385869187402}
   m_Layer: 0
   m_Name: TicketLife
   m_TagString: Untagged
@@ -85,6 +86,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7331488385869187402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2341783392026564805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08de9f90d6293e4f963fc5da9b62455, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 56a07658ddac3134d84990caa73ece0a, type: 3}
 --- !u!1 &5816235223906296294
 GameObject:
   m_ObjectHideFlags: 0
