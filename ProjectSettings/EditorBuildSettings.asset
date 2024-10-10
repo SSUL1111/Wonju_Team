@@ -6,10 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Mini Game One/E Soguem Mt, Grand Valley Game/\uD2C0\uB9B0\uADF8\uB9BC\uCC3E\uAE30.unity"
+    path: Assets/Mini Game One/Gangwongamyeong Provincial Office Game/map.unity
+    guid: b6dd853f678471540b62f927b7660e83
+  - enabled: 1
+    path: Assets/Scenes/stamp.unity
+    guid: c5b68aa462305a047a895c6018a5e3fc
+  - enabled: 1
+    path: "Assets/Scenes/\uD2C0\uB9B0\uADF8\uB9BC\uCC3E\uAE30.unity"
+    guid: f488a8fd625a2e24fbea9c50ffaceabd
+  - enabled: 1
+    path: "Assets/Mini Game One/Gangwongamyeong Provincial Office Game/\uD2C0\uB9B0\uADF8\uB9BC\uCC3E\uAE30.unity"
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Mini Game One/E Soguem Mt, Grand Valley Game/stamp.unity
+    path: Assets/Mini Game One/Gangwongamyeong Provincial Office Game/stamp.unity
     guid: 726d714e1a381dc4cb5b04f75271d18b
   - enabled: 1
     path: Assets/Wonju Team Final/A.unity
@@ -23,6 +32,53 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Wonju Team Final/D.unity
     guid: 317157d49c71f844abfb86a648a94cc5
+  - enabled: 1
+    path: Assets/Mini Game Two/Quiz1.unity
+    guid: a50319bd268dae746829f188e51c655e
+  - enabled: 1
+    path: Assets/Mini Game Two/Quiz2.unity
+    guid: 2f236a3e5bcb8e841a2738b9a5ac2830
+  - enabled: 1
+    path: Assets/Mini Game Two/Quiz3.unity
+    guid: 05e09d5f5e1db274da06deb91bf625f2
+  - enabled: 1
+    path: Assets/Mini Game Two/Quiz4.unity
+    guid: 53f70331aa5aa3f49b678bfef9550c9c
+  - enabled: 1
+    path: Assets/Mini Game Two/quiz5.unity
+    guid: fd526979bce922e44add1552c9962977
+  - enabled: 1
+    path: Assets/Mini Game Two/Quiz6.unity
+    guid: 4bf449cd2b9709b40a3b3bc19d63f707
+  - enabled: 1
+    path: Assets/Mini Game Two/right.unity
+    guid: baaedafa1f5b94248a8f2325d7252957
+  - enabled: 1
+    path: Assets/Mini Game Two/wrong.unity
+    guid: 88aa8509f37fd1a449c854522f094772
+  - enabled: 1
+    path: Assets/Wonju Team Progress/Place/E Soguem Mt, Grand Valley/E Soguem Mt,
+      Grand Valley Introduction.unity
+    guid: 267e8f97ff2ff8f43a1797ee1686a1e8
+  - enabled: 1
+    path: Assets/Wonju Team Progress/Place/E Soguem Mt, Grand Valley/E_A_Attraction_Amusement_Food_Introduction.unity
+    guid: e082631530ff95040945cf98cb8b135f
+  - enabled: 1
+    path: Assets/Wonju Team Progress/Place/E Soguem Mt, Grand Valley/E_C Soguem Mt,
+      Grand Valley Amusement.unity
+    guid: 6c005fbb99fbe874a97f7432e69e3ff6
+  - enabled: 1
+    path: Assets/Wonju Team Progress/Place/E Soguem Mt, Grand Valley/E_B Soguem Mt,
+      Grand Valley Attraction Suspension bridge.unity
+    guid: 3be6bd716fb0cd84cbfa1ed67d973694
+  - enabled: 1
+    path: Assets/Wonju Team Progress/Place/E Soguem Mt, Grand Valley/E_B Soguem Mt,
+      Grand Valley Attraction.unity
+    guid: 8b2b88994f27c904da3de258bad883e9
+  - enabled: 1
+    path: Assets/Wonju Team Progress/Place/E Soguem Mt, Grand Valley/E_D_C Soguem
+      Mt, Grand Valley Food.unity
+    guid: 20cf361fc36b0784fb8af6f0915b4ea3
   - enabled: 1
     path: Assets/Wonju Team Final/E.unity
     guid: 02dcc84a04ef33a40aea2d8270d749c9
